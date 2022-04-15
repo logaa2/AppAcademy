@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>App Academy HTML/CSS Assessment</title>
+  <link href="site.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="create-new-pet-form">
+      <form action="/pets" method="post">
+        <label for="name">Name</label>
+        <input type="text" name="pet_name" id="name">
+
+        <label for="type">Type</label>
+        <select name="pet_type" id="type">
+          <option value="">Cat</option>
+          <option value="">Dog</option>
+          <option value="">Hamster</option>
+          <option value="">Other</option>
+          <option value="">Zebra</option>
+        </select>   
+
+        <label for="bio">Biography</label>
+        <textarea name="pet_bio" id="bio" cols="30" rows="10"></textarea>
+
+        <label for="owner-email">Email</label>
+        <input type="email" name="pet_owner_email" id="owner-email">
+
+        <button type="submit" id="new-pet-submit-button">Create new pet</button>
+
+        <button type="reset">Reset</button>
+      </form>
+  </div>
+  
+  <div class="card">
+    
+      <div class="desertImage">
+        <img width="344px" height="194px" src="images\desert.jpg" alt="">
+      </div>
+  
+      <div class="avatarPos">
+        <img id="avatar" src="images\person-avatar.jpg" alt="">
+      </div>
+  
+      <div class="titles">
+        <h1 id="picturecard-title">Title goes here</h1>
+        <h2 id="secondary-text">Secondary text</h2>
+      </div>
+  
+      <div class="cardThree">
+        <p id="body-text">Greyhound divisively hello coldly wonderfully<br>
+          marginally far upon excluding.</p>
+      </div>          
+  </div>
+
+</body>
+
+</html>
